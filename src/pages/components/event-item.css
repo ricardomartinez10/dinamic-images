@@ -1,0 +1,88 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+@font-face {
+  font-family: 'League';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('League'),
+    url(../../../fonts/CircularStd-Book.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'LeagueLight';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('LeagueLight'),
+    url(../../../fonts/CircularStd-Black.ttf) format('truetype');
+}
+
+.Torneo{
+  color: white;
+      margin-bottom: 150px;
+}
+.Line-event{
+  width: 100%;
+  height: 22px;
+  background-image: url(../../../img/line.png);
+  background-size: cover;
+}
+.Torneo-text{
+  position: relative;
+    top: 39px;
+        font-size: 84px;
+    font-family: LeagueLight, sans-serif;
+}
+.Eventos{
+width: 2160px;
+height: 3840px;
+background: #cccc;
+
+background-size: cover;
+font-family: sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+    justify-content: space-around;
+}
+.Ic-deporte{
+
+}
+.Icono-img{
+height: 175px;
+margin-right: 57px;
+}
+
+.Equipos-container{
+      display: flex;
+          align-items: center;
+}
+.Equipos{
+  font-size: 91px;
+}
+.Hora{
+  font-family: LeagueLight, sans-serif;
+
+}
+.HoraAM{
+  font-size:77px;
+}
+.Hora-container{
+  font-size: 91px;
+  text-align: center;
+}
+.Event-item{
+   font-family: League, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00000096;
+  height: 380px;
+  width: 1836px;
+  padding: 0 72px 0 72px;
+
+}

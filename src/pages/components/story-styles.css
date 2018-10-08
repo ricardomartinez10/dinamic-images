@@ -1,0 +1,83 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+@font-face {
+  font-family: 'LeagueBold';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('LeagueBold'),
+    url(../../../fonts/CircularStd-Bold.ttf) format('truetype');
+}
+
+
+.Line{
+  height: 41px;
+  position: absolute;
+  right: 0;
+  top: -41px;
+  width: 1500px;
+}
+.LineDos{
+  position: absolute;
+  bottom: -192px;
+  width: 695px;
+}
+.Num-container{
+    align-self: center;
+
+}
+.Historia{
+  width: 2160px;
+  height:3840px;
+      background: #cccc;
+      background-size: cover;
+      font-family: sans-serif;
+      display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.Dia-container{
+  display: flex;
+      font-size: 60px;
+      color: white;
+      width: 2071px;
+      height: 694px;
+      /* background: #22c72245; */
+      position: relative;
+      top: 243px;
+}
+.Mes-container{
+  align-self: center;
+  margin-right: 53px;
+}
+.Dia{
+font-size: 190px;
+}
+.Day-layaout{
+  position: relative;
+  display: flex;
+      background: #0000005e;
+      padding: 40px 30px 40px 30px;
+      font-family: LeagueBold, sans-serif;
+}
+.De{
+  float: left;
+font-size: 159px;
+    margin-right: 50px;
+}
+.Mesde-container{
+  display: flex;
+      align-items: baseline;
+}
+.Mes{
+  float: right;
+  font-size: 177px;
+
+}
+.NumDia{
+    font-size: 537px;
+}

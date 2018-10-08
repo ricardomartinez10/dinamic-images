@@ -1,0 +1,278 @@
+{
+  "historias":[{
+    "id":1,
+    "dia":"LUNES",
+    "numDia":8,
+    "mes":"OCTUBRE",
+    "fondoPortada":"portada2b.png",
+    "fondoEventos":"eventos2b.png",
+    "eventos":[{
+      "id":1,
+      "local":"Once Caldas",
+      "visitante":"Leones FC",
+      "hora":"6:00",
+      "horario":"PM",
+      "competicion":"LIGA ÁGUILA",
+      "iconoDeporte":"soccer"
+
+      },
+      {
+        "id":2,
+        "local":"Cleveland Cavaliers",
+        "visitante":"Indiana Pacers",
+        "hora":"6:00",
+        "horario":"PM",
+        "competicion":"NBA (PRE-TEMPORADA)",
+        "iconoDeporte":"basket"
+      },
+      {
+        "id":3,
+        "local":"Miami Heat",
+        "visitante":"Orlando Magic",
+        "hora":"6:30",
+        "horario":"PM",
+        "competicion":"NBA (PRE-TEMPORADA)",
+        "iconoDeporte":"basket"
+      },
+      {
+        "id":4,
+        "local":"New York Yankees",
+        "visitante":"Boston Red Sox",
+        "hora":"6:40",
+        "horario":"PM",
+        "competicion":"MAYOR LEAGUE BASEBALL",
+        "iconoDeporte":"baseball"
+      },
+      {
+        "id":5,
+        "local":"Millonarios FC",
+        "visitante":"Deportivo La Equidad",
+        "hora":"8:00",
+        "horario":"PM",
+        "competicion":"LIGA ÁGUILA",
+        "iconoDeporte":"soccer"
+      }
+    ]
+  },
+  {
+    "id":2,
+    "dia":"MARTES",
+    "numDia":9,
+    "mes":"OCTUBRE",
+    "fondoPortada":"portada1b.png",
+    "fondoEventos":"eventos1b.png",
+    "eventos":[{
+      "id":1,
+      "local":"Cleveland Indians",
+      "visitante":"Houston Astros",
+      "hora":"3:35",
+      "horario":"PM",
+      "competicion":"MAYOR LEAGUE BASEBALL",
+      "iconoDeporte":"baseball"
+      },
+      {
+        "id":2,
+        "local":"New York Yankees",
+        "visitante":"Boston Red Sox",
+        "hora":"7:00",
+        "horario":"PM",
+        "competicion":"MAYOR LEAGUE BASEBALL",
+        "iconoDeporte":"baseball"
+      },
+      {
+        "id":3,
+        "local":"Oklahoma City Thunder",
+        "visitante":"Milwaukee Bucks",
+        "hora":"7:00",
+        "horario":"PM",
+        "competicion":"NBA (PRE-TEMPORADA)",
+        "iconoDeporte":"basket"
+      },
+      {
+        "id":4,
+        "local":"Atlético Junior",
+        "visitante":"Deportes Tolima",
+        "hora":"7:30",
+        "horario":"PM",
+        "competicion":"LIGA ÁGUILA",
+        "iconoDeporte":"soccer"
+      },
+      {
+        "id":5,
+        "local":"Los Angeles Clippers",
+        "visitante":"Denver Nuggets",
+        "hora":"9:30",
+        "horario":"PM",
+        "competicion":"NBA (PRE-TEMPORADA)",
+        "iconoDeporte":"basket"
+      }
+    ]
+
+  },
+  {
+    "id":3,
+    "dia":"MIÉRCOLES",
+    "numDia":10,
+    "mes":"OCTUBRE",
+    "fondoPortada":"portada3.png",
+    "fondoEventos":"eventos3b.png",
+    "eventos":[{
+      "id":1,
+      "local":"Italia",
+      "visitante":"Ucrania",
+      "hora":"1:45",
+      "horario":"PM",
+      "competicion":"AMISTOSO INTERNACIONAL",
+      "iconoDeporte":"soccer"
+      },
+      {
+        "id":2,
+        "local":"Milwaukee Brewers",
+        "visitante":"Colorado Rockies",
+        "hora":"3:30",
+        "horario":"PM",
+        "competicion":"MAYOR LEAGUE BASEBALL",
+        "iconoDeporte":"baseball"
+      },
+      {
+        "id":3,
+        "local":"Miami Heat",
+        "visitante":"New Orleans Pacific",
+        "hora":"6:30",
+        "horario":"PM",
+        "competicion":"NBA (PRE-TEMPORADA)",
+        "iconoDeporte":"basket"
+      },
+      {
+        "id":4,
+        "local":"FC Atlanta Hawks",
+        "visitante":"San Antonio Spurs ",
+        "hora":"6:00",
+        "horario":"PM",
+        "competicion":"NBA (PRE-TEMPORADA)",
+        "iconoDeporte":"basket"
+      },
+      {
+        "id":5,
+        "local":"Chicago Bulls",
+        "visitante":"Indiana Pacers",
+        "hora":"7:00",
+        "horario":"PM",
+        "competicion":"NBA (PRE-TEMPORADA)",
+        "iconoDeporte":"basket"
+      }
+    ]
+
+  },
+  {
+    "id":4,
+    "dia":"JUEVES",
+    "numDia":11,
+    "mes":"OCTUBRE",
+    "fondoPortada":"portada4b.png",
+    "fondoEventos":"eventos4b.png",
+    "eventos":[{
+      "id":1,
+      "local":"Polonia ",
+      "visitante":"Portugal ",
+      "hora":"1:34",
+      "horario":"PM",
+      "competicion":"UEFA NATIONS LEAGUE",
+      "iconoDeporte":"soccer"
+      },
+      {
+        "id":2,
+        "local":"Rusia",
+        "visitante":"Suecia",
+        "hora":"2:45",
+        "horario":"PM",
+        "competicion":"UEFA NATIONS LEAGUE",
+        "iconoDeporte":"soccer"
+      },
+      {
+        "id":3,
+        "local":"Colombia",
+        "visitante":"Estados Unidos",
+        "hora":"6:30",
+        "horario":"PM",
+        "competicion":"AMISTOSO INTERNACIONAL",
+        "iconoDeporte":"soccer"
+      },
+      {
+        "id":4,
+        "local":"New York Giants",
+        "visitante":"Philadenphia Eagles",
+        "hora":"7:30",
+        "horario":"PM",
+        "competicion":"NFL",
+        "iconoDeporte":"nfl"
+      },
+      {
+        "id":5,
+        "local":"Atlético Nacional",
+        "visitante":"Leones FC",
+        "hora":"7:45",
+        "horario":"PM",
+        "competicion":"COPA ÁGUILA",
+        "iconoDeporte":"soccer"
+      }
+    ]
+
+  },
+  {
+    "id":5,
+    "dia":"VIERNES",
+    "numDia":12,
+    "mes":"OCTUBRE",
+    "fondoPortada":"portada5b.png",
+    "fondoEventos":"eventos5b.png",
+    "eventos":[{
+      "id":1,
+      "local":"Bélgica",
+      "visitante":"Suiza",
+      "hora":"1:45",
+      "horario":"PM",
+      "competicion":"UEFA NATIONS LEAGUE",
+      "iconoDeporte":"soccer"
+      },
+      {
+        "id":2,
+        "local":"Croacia",
+        "visitante":"Inglaterra",
+        "hora":"1:45",
+        "horario":"PM",
+        "competicion":"UEFA NATIONS LEAGUE",
+        "iconoDeporte":"soccer"
+      },
+      {
+        "id":3,
+        "local":"Cleveland Cavaliers",
+        "visitante":"Detroit Pistons",
+        "hora":"6:00",
+        "horario":"PM",
+        "competicion":"NBA (PRE-TEMPORADA)",
+        "iconoDeporte":"basket"
+      },
+      {
+        "id":4,
+        "local":"Dallas Mavericks",
+        "visitante":"Charlotte Hornets",
+        "hora":"6:00",
+        "horario":"PM",
+        "competicion":"NBA (PRE-TEMPORADA)",
+        "iconoDeporte":"basket"
+      },
+      {
+        "id":5,
+        "local":" Orlando Magic",
+        "visitante":"San Antonio Spurs",
+        "hora":"6:00",
+        "horario":"PM",
+        "competicion":"NBA (PRE-TEMPORADA)",
+        "iconoDeporte":"basket"
+      }
+    ]
+
+  }
+  ]
+}
