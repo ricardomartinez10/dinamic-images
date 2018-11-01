@@ -35,7 +35,7 @@ module.exports = {
         use: {
           loader: 'url-loader',
           options: {
-            limit: 1000000,
+            limit: 1090000,
             fallback: 'file-loader',
             name: 'images/[name].[hash].[ext]',
           }

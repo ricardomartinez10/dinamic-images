@@ -1,15 +1,18 @@
 import React from 'react';
 import './event-item.css';
+import cargarImagen from '../../assets/assets';
 
 import line from '../../../img/line.png'
 function ModeloEvento(props) {
-  const icono =`../../../img/${props.iconoDeporte}.png`;
+
+  const iconoimg=cargarImagen(props.iconoDeporte);
+
   return(
     <div className="Torneo">
       <div className="Event-item">
           <div className="Equipos-container">
             <div className="Ic-deporte">
-              <img className="Icono-img" src={icono} alt=""/>
+              <img className="Icono-img" src={iconoimg} alt=""/>
             </div>
             <div className="Equipos">
               <p>{props.local}</p>

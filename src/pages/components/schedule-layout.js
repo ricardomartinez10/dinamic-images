@@ -3,12 +3,13 @@ import './schedule.css'
 import line from '../../../img/line.png'
 import lineDos from '../../../img/line2.png'
 import ModeloEvento from './modelo-evento'
-
+import cargarImagen from '../../assets/assets';
 
 
 function ScheduleLayout(props) {
+    const imagenEvento=cargarImagen(props.fondoEventos);
   const divStyle = {
-   backgroundImage: `url(../../../img/${props.fondoEventos})`,
+   backgroundImage: `url(${imagenEvento})`,
   };
 
   return(

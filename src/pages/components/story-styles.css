@@ -53,6 +53,7 @@
 .Mes-container{
   align-self: center;
   margin-right: 53px;
+  text-transform: uppercase;
 }
 .Dia{
 font-size: 190px;

@@ -2,11 +2,15 @@ import React from 'react'
 import './story-styles.css'
 import line from '../../../img/line.png'
 import lineDos from '../../../img/line2.png'
+import portadaimg from '../../../img/portada1b.png'
+import cargarImagen from '../../assets/assets';
 
 function StoryLayout(props) {
 
+  const imagen=cargarImagen(props.fondoPortada);
+
   const fondoHistoria = {
-   backgroundImage: `url(../../../img/${props.fondoPortada})`,
+ backgroundImage: `url(${imagen})`,
   };
   return(
     <div style={fondoHistoria}  className="Historia">
