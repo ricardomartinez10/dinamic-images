@@ -53,10 +53,10 @@ class GeneralData extends Component{
         <select className="General-field" name="dia" ref={this.mySelect} onChange={this.handleChange}>
         <option value="lunes">Lunes</option>
         <option value="martes">Martes</option>
-        <option value="miercoles">Miércoles</option>
+        <option value="miércoles">Miércoles</option>
         <option value="jueves">Jueves</option>
         <option value="viernes">Viernes</option>
-        <option value="sabado">Sabado</option>
+        <option value="sábado">Sábado</option>
         <option value="domingo">Domingo</option>
         </select>
         <p htmlFor="male" className="General-label">Número de Día</p>
