@@ -21,6 +21,7 @@ state={
 }
 
 guardarDatos=(id)=>{
+
   let datos={
     "competicion":this.state.competicion,
     "hora":this.state.hora,
@@ -39,13 +40,6 @@ borrarDatos=()=>{
  let idEvento=this.state.idEvento
  this.props.borrarDatos(idEvento);
 }
-
-setDefaultIcon=()=>{
-  let listaDeportes=document.getElementsByClassName("mySelect");
-  let index=SelectValue.getIconSport(this.state.deporte);
-  listaDeportes[0].selectedIndex = index;
-}
-
 
 
 componentDidMount(){
@@ -80,27 +74,54 @@ handleChange=(evt)=> {
     let hour= evt.target.value.split(':')[0];
     if(hour>=12){
       this.setState({
-        horario:"PM"
+        horario:"PM",
+        hora:12-hour
       })
-    }else{
+
+    }
+    else{
       this.setState({
         horario:"AM"
       })
     }
   }
-
   this.setState({
       [evt.target.name]: evt.target.value
+
   }, () => {
+
     this.props.actualizarLista(this.props.idHistoria,this.props.eventos,this.state.idEvento,this.getItem());
   });
+}
+
+changeHourFormat=()=>{
+  let time=this.state.hora.split(':');
+  let hours=time[0];
+  let minutes=time[1];
+  let newTime=this.state.hora;
+  if(hours>12){
+    let rest=hours-12;
+    console.log("rest : "+rest);
+    if(rest<=9){
+      newTime="0"+rest+":"+minutes;
+      return newTime;
+    }else {
+      newTime=rest+":"+minutes;
+      return newTime;
+    }
+
+  }else {
+    return newTime;
+  }
 }
 
 defaultSelectValue = element =>{
   let index=SelectValue.getIconSport(this.state.deporte);
   this.inputField.current.selectedIndex = index;
 }
+
 handleSelect=(evt)=>{
+
 console.log(evt.target.value);
 }
 render(){
