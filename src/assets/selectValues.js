@@ -13,14 +13,38 @@ getFondo(fondo){
     return 2
     case 'portada4':
     return 3
-    case 'portada1b':
+    case 'portada5':
     return 4
-    case 'portada2b':
+    case 'portada6':
     return 5
-    case 'portada3b':
+    case 'portada7':
     return 6
-    case 'portada4b':
+    case 'portada8':
     return 7
+    case 'portada9':
+    return 8
+    case 'portada10':
+    return 9
+    case 'portada1b':
+    return 10
+    case 'portada2b':
+    return 11
+    case 'portada3b':
+    return 12
+    case 'portada4b':
+    return 13
+    case 'portada5b':
+    return 14
+    case 'portada6b':
+    return 15
+    case 'portada7b':
+    return 16
+    case 'portada8b':
+    return 17
+    case 'portada9b':
+    return 18
+    case 'portada10b':
+    return 19
   }
 }
 

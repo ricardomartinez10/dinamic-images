@@ -85,11 +85,23 @@ class GeneralData extends Component{
         <option value="portada2">Portada 2</option>
         <option value="portada3">Portada 3</option>
         <option value="portada4">Portada 4</option>
+        <option value="portada5">Portada 5</option>
+        <option value="portada6">Portada 6</option>
+        <option value="portada7">Portada 7</option>
+        <option value="portada8">Portada 8</option>
+        <option value="portada9">Portada 9</option>
+        <option value="portada10">Portada 10</option>
 
         <option value="portada1b">Portada 1 (Baloto)</option>
         <option value="portada2b">Portada 2 (Baloto)</option>
         <option value="portada3b">Portada 3 (Baloto)</option>
         <option value="portada4b">Portada 4 (Baloto)</option>
+        <option value="portada5b">Portada 5 (Baloto)</option>
+        <option value="portada6b">Portada 6 (Baloto)</option>
+        <option value="portada7b">Portada 7 (Baloto)</option>
+        <option value="portada8b">Portada 8 (Baloto)</option>
+        <option value="portada9b">Portada 9 (Baloto)</option>
+        <option value="portada10b">Portada 10 (Baloto)</option>
       </select>
       </div>
 

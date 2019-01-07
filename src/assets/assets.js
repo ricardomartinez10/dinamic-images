@@ -6,13 +6,28 @@ import portada2 from '../../img/portada2.png';
 import portada2b from '../../img/portada2.png';
 
 import portada3 from '../../img/portada3.png';
-import portada3b from '../../img/portada3.png';
+import portada3b from '../../img/portada3b.jpg';
 
 import portada4 from '../../img/portada4.png';
 import portada4b from '../../img/portada4b.png';
 
-import portada5 from '../../img/portada5.png';
-import portada5b from '../../img/portada5b.png';
+import portada5 from '../../img/portada5.jpg';
+import portada5b from '../../img/portada5b.jpg';
+
+import portada6 from '../../img/portada6.jpg';
+import portada6b from '../../img/portada6b.jpg';
+
+import portada7 from '../../img/portada7.jpg';
+import portada7b from '../../img/portada7b.jpg';
+
+import portada8 from '../../img/portada8.jpg';
+import portada8b from '../../img/portada8b.jpg';
+
+import portada9 from '../../img/portada9.jpg';
+import portada9b from '../../img/portada9b.jpg';
+
+import portada10 from '../../img/portada10.jpg';
+import portada10b from '../../img/portada10b.jpg';
 
 // Eventos
 import eventos1 from '../../img/eventos1.png';
@@ -87,6 +102,55 @@ let img;
      return img;
      break
 
+     case 'portada6':
+     img=portada6;
+     return img;
+     break
+
+     case 'portada6b':
+     img=portada6b;
+     return img;
+     break
+
+     case 'portada7':
+     img=portada7;
+     return img;
+     break
+
+     case 'portada7b':
+     img=portada7b;
+     return img;
+     break
+
+     case 'portada8':
+     img=portada8b;
+     return img;
+     break
+
+     case 'portada8b':
+     img=portada8b;
+     return img;
+     break
+
+     case 'portada9':
+     img=portada9b;
+     return img;
+     break
+
+     case 'portada9b':
+     img=portada9b;
+     return img;
+     break
+
+     case 'portada10':
+     img=portada10b;
+     return img;
+     break
+
+     case 'portada10b':
+     img=portada10b;
+     return img;
+     break
 
      case 'eventos1':
        img=eventos1;
