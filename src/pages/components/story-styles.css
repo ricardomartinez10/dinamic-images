@@ -34,6 +34,7 @@
   height:3840px;
       background: #cccc;
       background-size: cover;
+          background-position: bottom;
       font-family: sans-serif;
       display: flex;
     flex-direction: column;
